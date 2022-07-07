@@ -8,9 +8,9 @@ h1{
 .orange-color{
     color: orangered;
 }
-section{
+.flexlible-container{
     display: flex;
-    border-bottom: 100px;
+    border-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -36,4 +36,25 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right ;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: 10px solid blue;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-color: chocolate;
+}
+footer p{
+    text-align: center;
 }
